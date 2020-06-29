@@ -1,0 +1,10 @@
+Hub: java -jar selenium-server-standalone-3.141.59.jar -role hub -hubConfig hubConfig.json
+
+Node:java -jar selenium-server-standalone-3.141.59.jar -role node -nodeConfig nodeConfig.json
+
+
+Note: selenium-server-standalone-3.141.59.jar(the location of standalone 
+Example if standalone inside a file called seleniumGrid on desktop
+-run terminal and write $ cd desktop
+-$ cd seleniumGrid
+-$ hub command here. 
